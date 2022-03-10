@@ -1,11 +1,14 @@
-import React from 'react';
+import NavBar from "components/navBar";
+import React from "react";
 
 
 
 function App() {
   return (
-    <div>as coisas</div>
-  );
+      <div>
+          <NavBar/>
+      </div>
+   );
 }
 
 export default App;
